@@ -1,4 +1,4 @@
-# Codeable UI - Blog Post
+# My personal website
 
 Today's assignment consists of creating a web page that renders a blog post. The detailed design can be found [here](https://www.figma.com/file/bTvI0it8i6PWUgL4P8kb5B/?node-id=32%3A1158), but the overall picture is shown below:
 
