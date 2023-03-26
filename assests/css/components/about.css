@@ -1,0 +1,62 @@
+.about__subtitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about__skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2.25rem;
+}
+
+.about__skills .skill__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.skill-icon {
+  margin: 0.2rem 0 0  0.2rem;
+}
+
+.skill__info {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+}
+
+.skill__title {
+  line-height: 2rem;
+}
+
+.about__hobbies {
+  background: #E5E7EB;
+}
+
+.about__hobbies .hobbies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.hobbie__info {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  padding: .5rem;
+}
+
+.hobbie__title {
+  text-align: center;
+}
+
+.hobbie__description {
+  text-align: center;
+}
+
+.hobbie__image {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

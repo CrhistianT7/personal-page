@@ -1,0 +1,105 @@
+.header {
+  background-color: var(--gray-100);
+  padding: 1rem;
+
+  /* position: sticky;
+  top: 0;
+  left: 0; */
+}
+
+.header__logo {
+  color: var(--gray-900);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar__links {
+  display: none;
+}
+
+#toggle-open,
+#toggle-close {
+  position: absolute;
+  top: .6rem;
+  right: 2rem;
+
+  color: var(--secondary-darker);
+}
+
+.contact-me {
+  text-decoration: none;
+}
+
+.navbar__links .navbar__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar__links .navbar__item {
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+.navbar__links .link {
+  color: #DB2777;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .5rem;
+}
+
+.navbar__links .link:focus {
+  outline: 2px solid var(--info);
+  outline-offset: 1px;
+}
+
+.nav__checkbox {
+  display: none;
+}
+
+.nav__checkbox:checked ~ .navbar__links {
+  display: block;
+}
+
+#nav__checkbox:not(:checked) ~ #toggle-close,
+#nav__checkbox:checked ~ #toggle-open {
+    display: none;
+  }
+
+@media only screen and (min-width: 769px) {
+  .nav__checkbox,
+  .toggle-open,
+  .toggle-close {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__links .navbar__items {
+    flex-direction: row;
+  }
+
+  .navbar__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
+  }
+}

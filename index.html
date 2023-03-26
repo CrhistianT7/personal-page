@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Turpo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navbar container container-lg">
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
+        <label for="nav__checkbox" id="toggle-open" class="toggle-open">
+          <i class="ri-menu-line ri-2x"></i>
+        </label>
+        <label for="nav__checkbox" id="toggle-close" class="toggle-close">
+          <i class="ri-close-line ri-2x"></i>
+        </label>
+        <a href="/index.html" class="header__logo">
+          <span>Andrew Turpo</span>
+        </a>
+        <div class="navbar__links">
+          <nav>
+            <ul class="navbar__items">
+              <li class="navbar__item">
+                <a href="#articles" class="link">Articles</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#portafolio" class="link">Portafolio</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#about" class="link">About</a>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="#contact-me"
+            class="button button--primary button--sm contact-me"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+    </header>
+    <section id="hero" class="section-padding hero">
+      <div class="container-lg">
+        <h2 class="heading-xl regular">
+          Hi! I'm <span class="hero-name semibold">Andrew</span>, a full stack
+          developer looking for new adventures
+        </h2>
+        <p class="text-xl hero-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget velit
+          risus tellus viverra luctus in odio amet. Quisque viverra integer
+          lectus euismod quisque adipiscing. Sed posuere sed bibendum mi orci,
+          commodo, quam. Sagittis, donec sit bibendum mi nisl semper sed.
+        </p>
+      </div>
+    </section>
+    <section id="articles" class="section-padding-md">
+      <div class="container-lg">
+        <div class="articles__header">
+          <h2 class="heading-lg semibold">Last Articles</h2>
+          <p class="text-lg regular">Thinks I have learned lately</p>
+        </div>
+        <div class="articles__content">
+          <div class="article">
+            <time class="text-xs semibold overline">march 16, 2022</time>
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="read-more text-sm semibold overline">
+              READ MORE
+            </a>
+          </div>
+          <div class="article">
+            <time class="text-xs semibold overline">march 16, 2022</time>
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="read-more text-sm semibold overline">
+              READ MORE
+            </a>
+          </div>
+          <div class="article">
+            <time class="text-xs semibold overline">march 16, 2022</time>
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="read-more text-sm semibold overline">
+              READ MORE
+            </a>
+          </div>
+          <div class="article">
+            <time class="text-xs semibold overline">march 16, 2022</time>
+            <h3 class="heading-md regular">Learning Ruby in 4 weeks</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis. Amet
+              purus viverra urna, purus, quam vestibulum dignissim etiam eu.
+              Enim, facilisi donec est sollicitudin vulputate.
+            </p>
+            <a href="#" class="read-more text-sm semibold overline">
+              READ MORE
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portafolio" class="section-padding-md">
+      <div class="container-lg">
+        <div class="portafolio__header">
+          <h2 class="portafolio__title heading-lg semibold">Potafolio</h2>
+          <p class="portafolio__quote text-lg regular">
+            Perfect practice makes perfect
+          </p>
+        </div>
+        <div class="portafolio__projects">
+          <div class="portafolio__project">
+            <div class="stack">
+              <div class="stack__items">
+                <span class="stack__item">
+                  <img src="./assests/images/cli-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/ruby-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/github-icon.svg" />
+                </span>
+              </div>
+              <a href="https://www.google.com/" target="_blank">
+                <img src="assests/images/arrow-icon.svg" />
+              </a>
+            </div>
+            <h2 class="title heading-xs semibold">CalenCLI</h2>
+            <p class="description text-lg light">
+              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
+              Sit repellendus qui ut at blanditiis et quo et molestiae.
+            </p>
+            <div class="concepts__applied">
+              <span class="concept text-xs regular">Control flow</span>
+              <span class="concept text-xs regular">Dates</span>
+              <span class="concept text-xs regular">Methods</span>
+              <span class="concept text-xs regular">Loops</span>
+            </div>
+          </div>
+          <div class="portafolio__project">
+            <div class="stack">
+              <div class="stack__items">
+                <span class="stack__item">
+                  <img src="./assests/images/cli-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/ruby-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/github-icon.svg" />
+                </span>
+              </div>
+              <a href="https://www.google.com/" target="_blank">
+                <img src="assests/images/arrow-icon.svg" />
+              </a>
+            </div>
+            <h2 class="title heading-xs semibold">Pokemon Ruby</h2>
+            <p class="description text-lg light">
+              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
+              Sit repellendus qui ut at blanditiis et quo et molestiae.
+            </p>
+            <div class="concepts__applied">
+              <span class="concept text-xs regular">Classes</span>
+              <span class="concept text-xs regular">Modules</span>
+              <span class="concept text-xs regular">Inheritance</span>
+            </div>
+          </div>
+          <div class="portafolio__project">
+            <div class="stack">
+              <div class="stack__items">
+                <span class="stack__item">
+                  <img src="./assests/images/cli-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/ruby-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/github-icon.svg" />
+                </span>
+              </div>
+              <a href="https://www.google.com/" target="_blank">
+                <img src="assests/images/arrow-icon.svg" />
+              </a>
+            </div>
+            <h2 class="title heading-xs semibold">CLIn Boards</h2>
+            <p class="description text-lg light">
+              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
+              Sit repellendus qui ut at blanditiis et quo et molestiae.
+            </p>
+            <div class="concepts__applied">
+              <span class="concept text-xs regular">File Manipulation</span>
+              <span class="concept text-xs regular">Classes</span>
+              <span class="concept text-xs regular">Json</span>
+            </div>
+          </div>
+          <div class="portafolio__project">
+            <div class="stack">
+              <div class="stack__items">
+                <span class="stack__item">
+                  <img src="./assests/images/cli-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/ruby-icon.svg" />
+                </span>
+                <span class="stack__item">
+                  <img src="./assests/images/github-icon.svg" />
+                </span>
+              </div>
+              <a href="https://www.google.com/" target="_blank">
+                <img src="assests/images/arrow-icon.svg" />
+              </a>
+            </div>
+            <h2 class="title heading-xs semibold">Expensable CLI</h2>
+            <p class="description text-lg light">
+              Doloribus dolores nostrum quia qui natus officia quod et dolorem.
+              Sit repellendus qui ut at blanditiis et quo et molestiae.
+            </p>
+            <div class="concepts__applied">
+              <span class="concept text-xs regular">HTTP Requests</span>
+              <span class="concept text-xs regular">Clases</span>
+              <span class="concept text-xs regular">Modules</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-padding-md">
+        <div class="container-lg">
+          <h2 class="about__subtitle heading-lg semibold">My Skills</h2>
+          <div class="about__skills">
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">Ruby</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">Ruby on Rails</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">JavaScript</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">React</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">Git & GitHub</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="skill__card">
+              <img
+                src="./assests/images/skill-icon.svg"
+                class="skill-icon"
+                alt="ruby icon svg"
+              />
+              <div class="skill__info">
+                <h2 class="skill__title heading-sm regular">Postgresql</h2>
+                <p class="skill__description text-lg light">
+                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__hobbies section-padding-md">
+        <div class="container-lg">
+          <h2 class="about__subtitle heading-lg semibold">My Hobbies</h2>
+          <div class="hobbies">
+            <div class="hobbie__info">
+              <h2 class="hobbie__title heading-md semibold">Traveling</h2>
+              <p class="hobbie__description text-xl light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ullamcorper cursus at viverra netus mauris, fermentum felis.
+              </p>
+            </div>
+            <img
+              src="./assests/images/traveling.jpg"
+              class="hobbie__image"
+              alt="traveling jpg"
+            />
+            <img
+              src="./assests/images/red-volkswagen.jpg"
+              class="hobbie__image"
+              alt="red volkswagen jpg"
+            />
+
+            <img
+              src="./assests/images/chop-vegetables.jpg"
+              class="hobbie__image"
+              alt="chop vegetables jpg"
+            />
+            <div>
+              <h2 class="hobbie__title heading-md semibold">Cooking</h2>
+              <p class="hobbie__description text-xl light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ullamcorper cursus at viverra netus mauris, fermentum felis.
+              </p>
+            </div>
+            <img
+              src="./assests/images/grill.jpg"
+              class="hobbie__image"
+              alt="grill food jpg"
+            />
+            <img
+              src="./assests/images/setup.jpg"
+              class="hobbie__image"
+              alt="setup gamer jpg"
+            />
+            <img
+              src="./assests/images/consoles.jpg"
+              class="hobbie__image"
+              alt="gaming consoles"
+            />
+            <div>
+              <h2 class="hobbie__title heading-md semibold">Gaming</h2>
+              <p class="hobbie__description text-xl light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ullamcorper cursus at viverra netus mauris, fermentum felis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <section id="contact-me" class="section-padding-md">
+      <div class="container-lg">
+        <div class="contact-me__header">
+          <h2 class="heading-md semibold">Contact Me</h2>
+          <p class="contact-me__header__description text-lg light">
+            Looking to expand your team? Or do you need a web developer for a
+            specific project? If I can help you in any way don't hesitate to
+            fill this form.
+          </p>
+        </div>
+        <form class="form-container container-sm">
+          <div class="field-inputs">
+            <label class="overline text-xs light">
+              First Name
+              <input
+                class="input"
+                type="text"
+                name="username"
+                placeholder="John"
+              />
+            </label>
+            <label class="overline text-xs light">
+              Last Name
+              <input
+                class="input"
+                type="text"
+                name="lastname"
+                placeholder="Doe"
+              />
+            </label>
+            <label class="overline text-xs light">
+              EMAIL
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="john@gmail.com"
+              />
+            </label>
+            <label class="overline text-xs light">
+              COMPANY
+              <input
+                class="input"
+                type="text"
+                name="company"
+                placeholder="Company SA"
+              />
+            </label>
+            <label class="overline text-xs light">
+              Phone
+              <input
+                class="input"
+                type="number"
+                name="phone"
+                placeholder="955680098"
+              />
+            </label>
+            <label class="overline text-xs light">
+              Country
+              <select class="select">
+                <option selected disabled hidden>Select one option</option>
+                <option value="1">Peru</option>
+                <option value="2">Chile</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <p class="text-xs overline regular">How can I help you?</p>
+            <br />
+            <div class="checkbox-group checkbox-group--vertical">
+              <div class="checkbox">
+                <input
+                  id="checkbox_1"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_1" class="text-sm light"
+                    >Job Offer</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_2"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_2" class="text-sm light"
+                    >Project Offer</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_3"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_3" class="text-sm light"
+                    >Collaboration</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_4"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_4" class="text-sm light">Other</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button button--primary w-full">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container-lg footer__content">
+        <h2 class="footer__content__title">Can I help you?</h2>
+        <button class="button button--primary">Get in touch!</button>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+@import url("./global/reset.css");
+@import url("./global/utils.css");
+@import url("./global/typography.css");
+@import url("./global/colors.css");
+@import url("./global/elements.css");
+
+@import url("./ui/container.css");
+@import url("./ui/section.css");
+@import url("./ui/button.css");
+@import url("./ui/input.css");
+
+@import url("./components/header.css");
+@import url("./components/hero.css");
+@import url("./components/article.css");
+@import url("./components/portafolio.css");
+@import url("./components/about.css");
+@import url("./components/contactMe.css");
+@import url("./components/footer.css");

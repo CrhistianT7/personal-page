@@ -1,0 +1,12 @@
+.hero {
+  background: var(--secondary-light);
+}
+
+.hero-name {
+  color: var(--primary);
+}
+
+.hero-description {
+  color: var(--gray-900);
+  margin-top: 1rem;
+}
